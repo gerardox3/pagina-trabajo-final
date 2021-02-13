@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+	<div id="navegador">
+<ul>
+	<a href="inicio.html">Inicio</a>
+<a href="lugar.html">Lugar</a>
+<a href="alojo.html">Alojo</a>
+<a href="contacto.html">Contacto</a>
+
+</ul>
+</div>
+	<form>
+		Nombre:   <br>
+		<input type="text"  pattern="[A-Za-z]*" name=""><br>
+		Correo:    <br>
+		<input type="email" name=""><br>
+		Telefono:   <br>
+		<input type="text" pattern="[0-9]*" name=""><br>
+		Comentario:   <br>
+		<textarea rows="10"></textarea><br>
+		<div class="g-recaptcha" data-sitekey="6LeL01UaAAAAAFYiRBibzxyMa2XBvX8PItRqKJHp"></div>
+		<input type="submit" name=""><br>
+
+	</form>
+
+</body>
+</html>
